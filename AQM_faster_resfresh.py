@@ -25,7 +25,7 @@ import natsort
 
 class AQMApp(QMainWindow, Ui_MainWindow):
     row_data_c2c = pd.DataFrame()
-    data_c2c = pd.DataFrame()
+    data_c2c = pd.DataFrame() # test
     col_tints = [['#f2f2f2', '#cccccc', '#a6a6a6', '#808080', '#666666'],
                  ['#e6ffff', '#b3ffff', '#80ffff', '#4dffff', '#00ffff'],
                  ['#ffffcc', '#ffff99', '#ffff66', '#ffff33', '#ffff00'],
