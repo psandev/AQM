@@ -19,7 +19,7 @@ folder = r'E:\Not Backed Up\Dropbox\Landa\Python Projects\AQM\20180301 - I2S job
 
 def files_finder(folder, file_name):
     for path, directories, files in os.walk(folder):
-        for dir in directories:
+        for dir in directories: # test
             subdir = os.path.join(path, dir)
             for file_path, _, file in os.walk(subdir):
                 for file in fnmatch.filter(file,file_name):
