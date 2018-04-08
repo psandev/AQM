@@ -43,7 +43,7 @@ class AQMApp(QMainWindow, Ui_MainWindow):
         self._files_analysis_c2c = []
         self._files_correction = []
         self._data_row_c2c = pd.DataFrame()
-        self._dist = 3048
+        self._dist = 3048 #
         self._col_base = 'Black'
         self._colors = []
         self._pannels_removed = []
